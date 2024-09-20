@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website is a shifting house next to a river of knowledge.</title>
+    <link rel="icon" type="image/x-icon" href="../assets/v2/bird.gif">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('../assets/v2/water020.gif');
+            color: yellow;
+            width: 50%;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            cursor: url('https://web.archive.org/web/20090829195143/http://geocities.com/Heartland/Acres/5741/flitmouse.gif'), auto;
+        }
+
+        .body-container {
+            margin-left: 50%;
+            width: 100%;
+        }
+        
+        h2 {
+            font-family: 'Comic Sans MS', 'Times New Roman', Times, serif;
+            background: linear-gradient(to right, #FF0000, #FF00FF, #800080, #0000FF,#00FFFF, #00FF00, #FFFF00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        /* ============== header section styling ============== */
+
+        table {
+            background-color: transparent;
+            width: 100%;
+            color: #FF00FF;
+        }
+
+        table img {
+            max-height: 100px;
+        }
+
+        .bg2 {
+            background-image: url(https://web.archive.org/web/20091028011835/http://www.geocities.com/gypsykatcha/sparklebackground.gif);
+        }
+
+        .bg3 {
+            background-image: url(https://web.archive.org/web/20091027005042/http://www.geocities.com/statueoflove2000/background.gif);
+        }
+
+        .bg4 {
+            background-image: url(https://web.archive.org/web/20050518093117/http://www.geocities.com/grannywyo/IllinoisSingles/AnimatedBackGroundSky.gif);
+        }
+
+        .bg5 {
+            background-image: url(https://web.archive.org/web/20091027052818/http://hk.geocities.com/my_recall/Background064.gif);
+        }
+
+        .bg6 {
+            background-image: url(https://web.archive.org/web/20090807185614/http://www.geocities.com/deronewyorkny/Backgroundstarbursts.gif);
+        }
+
+        #header-table {
+            font-size: 2rem;
+            margin: 60px auto;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 800;
+            margin-left: 0;
+            overflow: hidden;
+        }
+
+        /* ============== windows styling ============== */
+
+        .window {
+            background-color: #ffb8f7;
+            color: black;
+            box-shadow: inset -1px 0 #0a0a0a, inset 1px 1px #800080, inset -2px 0 #800080, inset 2px 2px pink;
+        }
+
+        menu[role=tablist]>li[aria-selected=true] {
+            /* background-color: #FF00FF; */
+            background-image: linear-gradient(pink, #FF00FF);
+        }
+
+        menu[role=tablist]>li {
+            box-shadow: inset -1px 0 #0a0a0a, inset 1px 1px #800080, inset -2px 0 #800080, inset 2px 2px pink;
+        }
+
+        menu {
+            background-color: #FF00FF;
+            font-family: "Pixelated MS Sans Serif", Arial;
+            /* background-image: linear-gradient(pink, #FF00FF); */
+        }
+
+        .window-body {
+            padding: 30px;
+        }
+
+        .window-body h2 {
+            color: #FF00FF;
+            font-family: "Pixelated MS Sans Serif", Arial;
+        }
+
+        .window-body h4 {
+            padding-bottom: 20px;
+        }
+
+        .title-bar {
+            background: linear-gradient(90deg, #FF00FF, pink);
+            padding-top: 0;
+            padding-bottom: 0;
+            font-size: 1.2rem;
+        }
+
+        .window-body button {
+            margin-top: 20px !important;
+            padding: 10px 30px;
+            background-color: #ffb8f7;
+            font-size: 1rem;
+            display: block;
+            margin: auto;
+        }
+
+        /* ============== body styling ============== */
+
+        .section-divider {
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .sunken-panel {
+            width: 800px;
+            height: 500px;
+            margin: 100px auto;
+        }
+
+        section p {
+            padding-bottom: 20px;
+        }
+
+        .section-3 .window {
+            background-image: linear-gradient(#FF00FF, pink);
+        }
+
+        #img1 {
+            margin: auto;
+            display: none;;
+        }
+
+        #img2 {
+            margin: auto;
+            display: none;;
+        }
+
+        #img3 {
+            margin: auto;
+            display: none;;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    <!--===================== title section =====================-->
+    <hgroup>
+        <table id="header-table">
+            <tr>
+                <td><img src="https://web.archive.org/web/20091026222918/http://geocities.com/taniawebsite/purpb.gif"
+                        align="left" /></td>
+                <td><img src="https://web.archive.org/web/20091019212640/http://www.geocities.com/riverharvestfestival/glitterheart.gif"
+                        width="200px" /></td>
+                <td class="bg6"><img src="../assets/v2/mailbox2.gif"></td>
+                <td><img src="https://gifcities.org/assets/loading1.gif" /></td>
+                <td><img
+                        src="https://web.archive.org/web/20091027021704/http://www.geocities.com/drami67311/houseanimation1.gif" />
+                </td>
+                <td><img src="https://web.archive.org/web/20090830221434/http://geocities.com/Heartland/River/1448/images/tonisha3.gif"
+                        align="left" /></td>
+            </tr>
+            <tr>
+                <td><img
+                        src="https://web.archive.org/web/20091025052852/http://www.geocities.com/scar_draken2/email10.gif" />
+                </td>
+                <td class="bg2"><img
+                        src="https://web.archive.org/web/20091024163740/http://www.geocities.com/jennifers_website/changinggirl.gif"
+                        align="right" /></td>
+                <td><img src="../assets/v2/my-website.png" /></td>
+                <td class="bg4"><img
+                        src="https://web.archive.org/web/20091027071912/http://geocities.com/rick_clements/img/house.gif"
+                        align="right" /></td>
+                <td><img
+                        src="https://web.archive.org/web/20090723074218/http://www.geocities.com/kennebeccats/images/river2.gif" />
+                </td>
+            </tr>
+            <tr>
+                <td><img
+                        src="https://web.archive.org/web/20091022125442/http://www.geocities.com/alanis_river/Animations/fairydust1.gif" />
+                </td>
+                <td class="bg2"><img src="../assets/v2/is-a.gif" /></td>
+                <td><img src="https://web.archive.org/web/20090830065317/http://geocities.com/Heartland/River/5767/dove.gif"
+                        align="left" /><img
+                        src="https://web.archive.org/web/20090804113154/http://geocities.com/SunsetStrip/Lounge/7650/dollarspindownd.gif" />
+                </td>
+                <td class="bg3"><img
+                        src="https://web.archive.org/web/20091025031309/http://www.geocities.com/dtorrey121troop665/river-fairy.gif"
+                        align="left" /></td>
+                <td><img src="../assets/v2/shifting-house.gif" /></td>
+                <td><img
+                        src="https://web.archive.org/web/20090830065306/http://geocities.com/Heartland/River/9301/IMAGES/2egg.gif" />
+                </td>
+            </tr>
+            <tr>
+                <td><img
+                        src="https://web.archive.org/web/20091024092002/http://www.geocities.com/rivercityaquatics/dolfijn.gif" />
+                </td>
+                <td><img src="../assets/v2/rainbar.gif" width="150px" /></td>
+                <td><img src="../assets/v2/next-to.png" /></td>
+                <td class="bg3"><img
+                        src="https://web.archive.org/web/20091027041404/http://geocities.com/Pipeline/9618/WebSiteImages/angelaniright.gif" />
+                </td>
+                <td><img
+                        src="https://web.archive.org/web/20091027053012/http://geocities.com/renalisa/Riveraskool2/img14.gif" />
+                </td>
+                <td class="bg5"><img
+                        src="https://web.archive.org/web/20090806072643/http://www.geocities.com/baguaxt/website1.gif" />
+                </td>
+                <td><img src="" /></td>
+            </tr>
+            <tr>
+                <td><img src="https://web.archive.org/web/20090829191817/http://geocities.com/Heartland/River/9352/images/uni17.gif"
+                        align="right" /></td>
+                <td><img
+                        src="https://web.archive.org/web/20091027163851/http://geocities.com/betoriverafer/img66.gif" />
+                </td>
+                <td><img
+                        src="https://web.archive.org/web/20090728095237/http://www.geocities.com/majikspell1/psychedelic.gif" />
+                </td>
+                <td><img src="../assets/v2/a-river.gif" /></td>
+                <td><img src="../assets/v2/of-knowledge.png" width="300px" /></td>
+
+            </tr>
+            <tr>
+                <td>
+                <td>
+                    <p>By Laurel Schwulst</p>
+                </td>
+                </td>
+                <td><img src="https://web.archive.org/web/20091027035945/http://geocities.com/haitianwebsite/book.gif"
+                        align="left" /></td>
+                <td><img src="https://web.archive.org/web/20090821145227/http://geocities.com/Heartland/River/3491/secret/anihal5.gif"
+                        align="left" /></td>
+                <td><img src="https://web.archive.org/web/20091027085659/http://hk.geocities.com/partychan104/WebSite/Rose_034.gif"
+                        align="left" /><img
+                        src="https://web.archive.org/web/20090805143838/http://www.geocities.com/mooshmouse/rats.gif">
+                </td>
+                <td><img
+                        src="https://web.archive.org/web/20090820103320/http://geocities.com/childsafewebsitebygranny/puppy.gif" />
+                </td>
+                <td><img src="" /></td>
+            </tr>
+            <tr>
+                <td><img
+                        src="https://web.archive.org/web/20090830221433/http://geocities.com/Heartland/River/1448/images/heart9.gif" />
+                </td>
+                <td><img src="https://web.archive.org/web/20091027001728/http://us.geocities.com/allyouguysgotisthislousywebsite/cdspinning.gif"
+                        align="left" /></td>
+                <td><img src="https://web.archive.org/web/20091026192428/http://www.geocities.com/twiluu/_canoe.gif" />
+                </td>
+                <td><img src="https://web.archive.org/web/20091020111303/http://geocities.com/Heartland/River/9301/IMAGES/Butterfly.gif"
+                        align="right" /></td>
+                <td><img
+                        src="https://web.archive.org/web/20090902025222/http://geocities.com/scottswebsite/computerguy.gif" />
+                </td>
+            </tr>
+        </table>
+    </hgroup>
+
+    <!--===================== section 1 =====================-->
+
+    <div class="body-container">
+
+        <section class="section-1">
+        <div class="window">
+            <div class="title-bar">
+              <div class="title-bar-text">What is a website?</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+                <p>
+                    For the past handful of years, I’ve been teaching courses about interactive design and the internet.
+                </p>
+                <p> I teach within art departments at universities, so we learn about the internet’s impact on art—and vice
+                    versa—and how technological advance often coincides with artistic development.</p>
+                <p>
+                    In class, we make websites. To do this, we learn the elemental markup and code languages of the
+                    web—HTML, CSS, and some JavaScript.
+                </p>
+                <p>
+                    However, sometimes after the semester is over, I receive perplexing emails from students asking, “So how
+                    do I actually make a website?”
+                </p>
+                <p>
+                    This sparked my own questioning. “What is a website, anyway?” It’s easy to forget. Today there are
+                    millions of ways to make a website, and the abundance is daunting. But at its core, a website is still
+                    the same as
+                    ever before:
+                </p>
+                <p>
+                    A website is a file or bundle of files living on a server somewhere. A server is a computer that’s
+                    always connected to the internet, so that when someone types your URL in, the server will offer up your
+                    website. Usually you have to pay for a server. You also have to pay for a domain name, which is an
+                    understandable piece of language that points to an IP. An IP is a string of numbers that is an address
+                    to your server.
+                </p>
+                <p>
+                    Links (rendered default blue and underlined—they’re the hypertext “HT” in HTML) are the oxygen of the
+                    web. Not all websites have links, but all links connect to other webpages, within the same site or
+                    elsewhere.
+                </p>
+                <p>
+                    But my students already know this! So when they ask me about actually making a website, they are
+                    referring to a website in the world…today.
+                </p>
+                <p>
+                    It’s healthy to acknowledge today’s web is much different than the web many of us grew up using. So when
+                    they ask how to make a website (despite having already “learned”), they are alluding to the
+                    technological friction and social pressures that often come along with creating and maintaining a
+                    website in 2018.
+                </p>
+                <p>
+                    Although they may seem initially accommodating and convenient to their users, universally popular social
+                    media sites—like Facebook, Instagram, Snapchat, and Pinterest—are private companies that prioritize
+                    advertising above their users’ needs. Their users’ happiness is not the primary focus, so it’s perfectly
+                    normal for you to feel anxiety when using or even thinking about social media. In this age of digital
+                    cacophony dominated by these platforms, no one is looking out for you… but you. It makes perfect sense,
+                    then, when individuals tell me they want their website to do the job of “setting the record straight” on
+                    who they are and what they do.
+                </p>
+                <p>
+                    However, clarity is one of many possible intentions for a website. There are other legitimate states of
+                    mind capable of communication—a surprising, memorable, monumental, soothing, shocking, unpredictable,
+                    radically boring, bizarre, mind-blowing, very quiet and subtle, and/or amazing website could work. You
+                    also need not limit yourself to only one website—as perhaps you’d like to confuse or surprise with
+                    multiple.
+                </p>
+                <p>
+                    <mark>My favorite aspect of websites is their duality: they’re both subject and object at once.</mark>
+                    In other words, a website creator becomes both author and architect simultaneously. There are endless
+                    possibilities as to what a website could be. What kind of room is a website? Or is a website more like a
+                    house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive
+                    feedback loop: when you put energy into a website, in turn the website helps form your own identity.
+                </p>
+                <img id="img1" src="https://web.archive.org/web/20091021110632/http://www.geocities.com/catou_kisses/ALBBthreesomeenergy122002.gif"/>
+                <button id="button1" onclick="showimg1()">OK...</button>
+            </div>
+          </div>
+        
+        <img class="section-divider"
+            src="https://web.archive.org/web/20091027083740/http://www.geocities.com/ray_mickey_mouse/slidbar.gif/">
+
+        <!--===================== section 2 =====================-->
+
+        <section class="section-2">
+        <div class="window">
+            <div class="title-bar">
+              <div class="title-bar-text">Why have a website?</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+                <p>
+                    Today more than ever, we need individuals rather than corporations to guide the web’s future. The web is
+                    called the web because its vitality depends on just that—an interconnected web of individual nodes
+                    breathing life into a vast network. This web needs to actually work for people instead of being powered
+                    by a small handful of big corporations—like Facebook/Instagram, Twitter, and Google.
+                </p>
+                <p>
+                    Individuals can steer the web back to its original architecture simply by having a website. I think
+                    artists, in particular, could be instrumental in this space—showing the world where the web can go.
+                </p>
+                <p>
+                    Artists excel at creating worlds. They do this first for themselves and then, when they share their
+                    work, for others. Of course, world-building means creating everything—not only making things inside the
+                    world but also the surrounding world itself—the language, style, rules, and architecture.
+                </p>
+                <p>
+                    This is why websites are so important. They allow the author to create not only works (the “objects”)
+                    but also the world (the rooms, the arrangement of rooms, the architecture!). Ideally, the two would
+                    inform each other in a virtuous, self-perfecting loop. This can be incredibly nurturing to an artist’s
+                    practice.
+                </p>
+                <p>
+                    To those creative people who say “I don’t need a website,” I ask: why not have a personal website that
+                    works
+                    strategically, in parallel to your other activities? How could a website complement what you already do
+                    rather than competing or repeating? How can you make it fun or thought-provoking or (insert desired
+                    feeling here) for you? How can the process of making and cultivating a website contribute to your
+                    approach?
+                </p>
+                <p>
+                    A website can be anything. It doesn’t (and probably shouldn’t) be an archive of your complete works.
+                    That’s
+                    going to be dead the moment you publish. <mark>A website, or anything interactive, is inherently
+                        unfinished.
+                        It’s imperfect</mark>—maybe sometimes it even has a few bugs. But that’s the beauty of it. Websites
+                    are living, temporal spaces. What happens to websites after death, anyway?
+                </p>
+
+                <img id="img2" src="https://web.archive.org/web/20091027125256/http://geocities.com/mlnv/sv/question.gif"/>
+                <button id="button2" onclick="showimg2()">Hmmm...</button>
+            </div>
+          </div>
+        </section>
+        <img src="https://web.archive.org/web/20090820064840/http://geocities.com/newajith/electric.gif"
+            class="section-divider">
+
+        <!--===================== section 3 =====================-->
+        
+        <section class="section-3">
+            <div class="window-body">
+                <h2 style="padding-bottom: 40px;">What can a website be?</h2>
+                <menu role="tablist">
+                    <li role="tab" aria-selected="true" id="tab1"><a href="#tabs">Website as room</a></li>
+                    <li role="tab" aria-selected="false" id="tab2"><a href="#tabs">Website as shelf</a></li>
+                    <li role="tab" aria-selected="false" id="tab3"><a href="#tabs">Website as plant</a></li>
+                    <li role="tab" aria-selected="false" id="tab4"><a href="#tabs">Website as garden</a></li>
+                    <li role="tab" aria-selected="false" id="tab5"><a href="#tabs"><a href="#tabs">Website as puddle</a>
+                    </li>
+                    <li role="tab" aria-selected="false" id="tab6"><a href="#tabs"><a href="#tabs">Website as thrown rock that’s now falling deep into the ocean</a></li>
+                </menu>
+                <div class="window" role="tabpanel" id="tabcontent-1">
+                    <div class="window-body">
+                        <h4>Website as room</h4>
+                        <p>
+                            In an age of information overload, a room is comforting because it’s finite, often with a
+                            specific intended purpose.
+                        </p>
+                        <p>
+                            Simultaneously, a room can be flexible: you can shift its contents or even include a
+                            temporary partition, depending on occasion. You can also position elements in spatial
+                            juxtaposition, or create entrances to adjacent rooms through links.
+                        </p>
+                        <p>
+                            In the early days of The Creative Independent, we sometimes thought of TCI’s website like a
+                            house next to a river. We considered the interviews the flowing water, as they were our
+                            house’s nutrients and source of life. We would collect and drink from the water every day.
+                            But sometimes, depending on its nutrient makeup, the water would change our house. We’d wake
+                            up to see a new door where a picture frame once was.
+                            Knowledge became the architect.
+                        </p>
+                        <p>
+                            Like any metaphor, it’s not perfect. For better or worse, it’s much more difficult to delete
+                            a building than a website.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window" role="tabpanel" id="tabcontent-2" hidden>
+                    <div class="window-body">
+                        <h4>Website as shelf</h4>
+                        <p>
+                            Zooming into this room inside this house, we see a shelf. Maybe a shelf is easier to think
+                            about than a whole room. What does one put on a shelf? Books and objects from life? Sure, go
+                            ahead. Thankfully there’s nothing too heavy on the shelf, or else it would break. A few
+                            small things will do, knowledge-containing or not. Plus, lighter things are easy to change
+                            out. Is a book or trinket “so last year?” Move it off the shelf! Consider what surprising
+                            juxtapositions you can make on your little shelf.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window" role="tabpanel" id="tabcontent-3" hidden>
+                    <div class="window-body">
+                        <h4>Website as plant</h4>
+                        <p>
+                            Plants can’t be rushed. They grow on their own. Your website can be the same way, as long as
+                            you pick the right soil, water it (but not too much), and provide adequate sunlight. Plant
+                            an idea seed one day and let it gradually grow.
+                        </p>
+                        <p>
+                            Maybe it will flower after a couple of years. Maybe the next year it’ll bear fruit, if
+                            you’re lucky. Fruit could be friends or admiration or money—success comes in many forms. But
+                            don’t get too excited or set goals: that’s not the idea here. Like I said, plants can’t be
+                            rushed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window" role="tabpanel" id="tabcontent-4" hidden>
+                    <div class="window-body">
+                        <h4>Website as garden</h4>
+
+                        <p>
+                            Fred Rogers said you can grow ideas in the garden of your mind. Sometimes, once they’re
+                            little seedlings and can stand on their own, it helps to plant them outside, in a garden,
+                            next to the others.
+                        </p>
+                        <p>
+                            Gardens have their own ways each season. In the winter, not much might happen, and that’s
+                            perfectly fine. You might spend the less active months journaling in your notebook: less
+                            output, more stirring around on input. You need both. Plants remind us that life is about
+                            balance.
+                        </p>
+                        <p>
+                            <mark>It’s nice to be outside working on your garden, just like it’s nice to quietly sit
+                                with your ideas and place them onto separate pages.</mark>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window" role="tabpanel" id="tabcontent-5" hidden>
+                    <div class="window-body">
+                        <h4>Website as puddle</h4>
+                        <p>
+                            A website could also be a puddle. A puddle is a temporary collection of rainwater. They
+                            usually appear after rainstorms. Like a storm, creating a website can happen in a burst.
+                            Sometimes it’s nice to have a few bursts/storms of creating a website, since the zone can be
+                            so elusive. Some people even call rain “computer weather.”
+                        </p>
+                        <p>
+                            There is also no state of “completeness” to a website, like a puddle, since they’re
+                            ephemeral by nature. Sometimes they can be very big and reflective. Despite their temporal
+                            nature, I’ve even seen some creatures thrive in puddles. Meanwhile, some smaller puddles may
+                            only last a day.
+                        </p>
+                        <p>
+                            Not everything, even the most beautiful puddle with its incredible reflective surface, needs
+                            to last long. If the world doesn’t end tomorrow, there will be another storm. And where
+                            there’s a hole,
+                            a puddle will appear again.
+                        </p>
+                        <p>
+                            Puddles evaporate slowly over time. It might be difficult, but I would love to see a website
+                            evaporate slowly, too.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="window" role="tabpanel" id="tabcontent-6" hidden>
+                    <div class="window-body">
+                        <h4>Website as thrown rock that’s now falling deep into the ocean</h4>
+                        <p>
+                            Sometimes you don’t want a website that you’ll have to maintain. You have other things to
+                            do. Why not consider your website a beautiful rock with a unique shape which you spent hours
+                            finding, only to throw it into the water until it hits the ocean floor? You will never know
+                            when it hits the floor, and you won’t care.
+                        </p>
+                        <p>
+                            Thankfully, rocks are plentiful and you can do this over and over again, if you like. You
+                            can throw as many websites as you want into the ocean. When an idea comes, find a rock and
+                            throw it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="https://web.archive.org/web/20090729042206/http://es.geocities.com/gyauric/images/mouse.gif"
+            class="section-divider" />
+
+        <!--===================== section 4 =====================-->
+
+        <section class="section-4">
+        <div class="window">
+            <div class="title-bar">
+              <div class="title-bar-text">The web is what we make it</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+                <p>While an individual website could be any of those metaphors I mentioned above, I believe the common
+                    prevailing metaphor—the internet as cloud—is problematic. The internet is not one all-encompassing,
+                    mysterious, and untouchable thing. (In early patent drawings depicting the internet, it appears as
+                    related shapes: a blob,
+                    brain, or explosion.) These metaphors obfuscate the reality that the internet is made up of individual
+                    nodes: individual computers talking to other individual computers.
+                </p>
+                <p>
+                    The World Wide Web recently turned 29. On the web’s birthday, Tim Berners Lee, its creator, published a
+                    letter stating the web’s current state of threat. He says that while it’s called the “World Wide Web,”
+                    only
+                    about half the world is connected, so we should close this digital divide.
+                </p>
+                <p>
+                    But at the same time, Berners Lee wants to make sure this thing we’re all connecting to is truly working
+                    for us, as individuals: “I want to challenge us all to have greater ambitions for the web. I want the
+                    web to reflect our hopes and fulfill our dreams, rather than magnify our fears and deepen our
+                    divisions.”
+                </p>
+                <p>
+                    “Metaphor unites reason and imagination,” says George Lakoff and Mark Johnson in their book,
+                    <cite>Metaphors
+                        We Live By (1980)</cite>. “Metaphors are not merely things to be seen beyond. In fact, one can see
+                    beyond them only by using other metaphors. It is as though the ability to comprehend experience through
+                    metaphor were a sense, like seeing or touching or hearing, with metaphors providing the only ways to
+                    perceive and experience much of the
+                    world. Metaphor is as much a part of our functioning as our sense of touch, and as precious.”
+                </p>
+                <p>
+                    Instead of a cloud, let’s use a metaphor that makes the web’s individual, cooperative nodes more
+                    visible. This way, we can remember the responsibility we each have in building a better web. The web is
+                    a flock of birds or a sea of punctuation marks, each tending or forgetting about their web garden or
+                    puddle home with a river of knowledge nearby.
+                </p>
+                <p>
+                    If a website has endless possibilities, and our identities, ideas, and dreams are created and expanded
+                    by them, then it’s instrumental that websites progress along with us. It’s especially pressing when
+                    forces continue to threaten the web and the internet at large. In an age of information overload and an
+                    increasingly commercialized web, artists of all types are the people to help. Artists can think
+                    expansively about what a website can be. Each artist should create their own space on the web, for a
+                    website is an individual act of collective
+                    ambition.
+                </p>
+                <button id="button3" onclick="showimg3()">I have achieved self-actualization</button>
+            </div>
+          </div>
+        </section>
+
+        <!--===================== section 5 (embed) =====================-->
+        <div class="sunken-panel">
+            <iframe width="800px" height="500px"
+                src="https://www.are.na/the-creative-independent-1522276020/sparrows-talking-about-the-future-of-the-web/embed"
+                title="Laurel Schwulst’s Are.na channel “Sparrows talking about the future of the web”"></iframe>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+
+<script>
+
+// show image on button click
+function showimg1() {
+            document.getElementById('img1')
+                .style.display = "block";
+            document.getElementById('button1')
+                .style.display = "none";
+        }
+
+        function showimg2() {
+            document.getElementById('img2')
+                .style.display = "block";
+            document.getElementById('button2')
+                .style.display = "none";
+        }
+
+// change bg on button click
+        function showimg3() {
+            document.body.style.backgroundImage = "url(https://web.archive.org/web/20090831144434/http://geocities.com/viperucla/images/fireworks.gif)";
+            document.getElementById('button3')
+                .style.display = "none";
+        }
+
+
+    // assign tabs and panels
+    const tabs = document.querySelectorAll('[role="tab"]');
+    const panels = document.querySelectorAll('[role="tabpanel"]');
+
+    // add event listener to each tab
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function (event) {
+            // only show selected tab
+            tabs.forEach(x => x.setAttribute('aria-selected', 'false'));
+            tab.setAttribute('aria-selected', 'true');
+
+            //only show content from selected tab
+            panels.forEach(panel => panel.setAttribute('hidden', true));
+            let index;
+            tabs.forEach((x, i) => {
+                if (x === tab) index = i;
+            });
+            document.querySelector(`#tabcontent-${index + 1}`).removeAttribute('hidden');
+
+        });
+    });
+</script>
+
+</html>
